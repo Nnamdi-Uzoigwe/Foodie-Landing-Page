@@ -16,7 +16,7 @@ export default function QualityCard({ imgSrc, name, desc, button }: QualityCardP
                 <p className="mt-2 text-center text-gray-600">
                     {desc}
                 </p>
-                <button className=" hover:text-[#e03328] font-medium mt-2 flex justify-self-center">{button}</button>
+                <p className="hover:text-[#e03328] font-medium mt-2 text-center">{button}</p>
             </div>
         </div>
     )
