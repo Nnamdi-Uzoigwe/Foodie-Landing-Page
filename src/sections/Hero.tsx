@@ -50,7 +50,7 @@ export default function Hero() {
                     </div>
 
 
-                    <div className="absolute bottom-[-10px] left-0 lg:left-[-60px] rounded-lg bg-white w-fit flex gap-5 justify-center items-center py-2 lg:py-3 px-5 lg:px-8 shadow-lg">
+                    <div className="absolute bottom-[-50px] left-0 lg:left-[-60px] rounded-lg bg-white w-fit flex gap-5 justify-center items-center py-2 lg:py-3 px-5 lg:px-8 shadow-lg">
                         <img src={ali} alt="ali profile" />
                         <div>
                         <h4 className="font-semibold">Ali Ahmad</h4>

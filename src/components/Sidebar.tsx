@@ -15,7 +15,7 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
       } transition-transform duration-300 ease-in-out z-40`}
     >
     
-      <div className="flex justify-between items-center border-b-[0.5px] border-gray-400 mt-0 h-[85px] sm:h-[114px] px-4 sm:px-8">
+      <div className="flex justify-between items-center border-b-[0.5px] border-orange-500 mt-0 h-[85px] sm:h-[114px] px-4 sm:px-8">
             <div className="logo flex gap-3 items-center">
                 <img src={logo} className="w-[30px] lg:w-[40px]" />
                 <p className="text-[20px] lg:text-[40px] font-semibold">
@@ -28,23 +28,23 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
       
 
       <div className="mt-20 px-6">
-        <div className='border-b-[1px] border-gray-400 p-4'>
+        <div className='border-b-[1px] border-orange-500 p-4'>
             <p onClick={toggleSidebar} className="not-italic font-semibold text-orange-400">Home</p>
         </div>
 
-        <div className='border-b-[1px] border-gray-400 p-4'>
+        <div className='border-b-[1px] border-orange-500 p-4'>
             <p onClick={toggleSidebar} className="not-italic font-semibold text-orange-400">Our Menu</p>
         </div>
 
-        <div className='border-b-[1px] border-gray-400 p-4'>
+        <div className='border-b-[1px] border-orange-500 p-4'>
             <p onClick={toggleSidebar} className='not-italic font-semibold text-orange-400'>Foods</p>
         </div>
 
-        <div className='border-b-[1px] border-gray-400 p-4'>
+        <div className='border-b-[1px] border-orange-500 p-4'>
             <p onClick={toggleSidebar} className='not-italic font-semibold text-orange-400'>About us</p>
         </div>
 
-        <div className='border-b-[1px] border-gray-400 p-4'>
+        <div className='border-b-[1px] border-orange-500 p-4'>
             <p onClick={toggleSidebar} className='not-italic font-semibold text-orange-400'>Contact</p>
         </div>
 
